@@ -1,0 +1,66 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Shawn Rennegarbe & Joe Biggins
+ * Date: February 24, 2017
+ * Description: .hw2.cpp applies the movie rental program from hw1 to the robot. Movie checkout and movie return are the necessary options.
+ -------------------------------------------------------------------------------*/
+#include <pololu/3pi.h>   /* allow use of 3pi robot functions */
+#include "Movie.h"
+#include "RentalCustomer.h"
+#include "helperfunctions.h"
+#include "battery.h"
+#include "RobotString.h"
+
+int main(void)
+{
+  bat_check();
+
+  static const char* const MovieNameList[MAXMOVIES] = {
+    "Passengers", "La La Land", "Assasins Creed", "Sing",
+    "Suicide Squad", "The Girl on the Train", "The Magnificient Seven",
+    "Underworld: Blood Wars", "Fifty Shades Darker", "Moana", "Arrival"
+  };
+
+  Movie Movies[MAXMOVIES];
+  for (unsigned int num = 0; num<MAXMOVIES; ++num) {
+    RobotString temp;
+    temp.SetStringArray(MovieNameList[num]);
+    Movies[num].SetName(temp);
+    Movies[num].SetNumber(num);
+  }
+
+  static const char* const UserNamesList[MAXUSERS] = {
+    "E.Mou", "B.Evans", "B.Schweer", "R.Su", "K.Anderson", "K.Christensen", "M.Jacob", "H.Johnson"
+  };
+  RentalCustomer Users[MAXUSERS];
+  for (unsigned int idx = 0; idx<MAXUSERS; ++idx) {
+    RobotString temp;
+    temp.SetStringArray(UserNamesList[idx]);
+    Users[idx].SetName(temp);
+    Users[idx].SetNumberRented(0);
+  }
+  bool rented[MAXMOVIES] = {false, false, false, false, false, false, false, false, false};
+
+  /* Some useful strings for displaying status messages */
+  RobotString rentedStringValue;
+  rentedStringValue.SetStringArray("rented");
+  RobotString sorryRentedValue;
+  sorryRentedValue.SetStringArray("Sory;Ret");
+  RobotString returnedMovieValue;
+  returnedMovieValue.SetStringArray("returned");
+
+  /* Welcome screen */
+  print_two_lines("Welcome", "Mov rntl");
+  delay_ms(300);
+
+  while (1) {
+    print_two_lines("A.Rent", "C.Return");
+    // See documentation https://www.pololu.com/docs/0J18/9
+    unsigned char button = wait_for_button_press(BUTTON_A | BUTTON_C);
+
+    // YOUR CODE HERE
+
+  }
+  return 0;
+}
+
+

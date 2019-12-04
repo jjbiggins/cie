@@ -1,0 +1,4 @@
+/nfs/s-l003/local/vol01/usr/css/x86_64/opt/jetbrains/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw5/cmake-build-debug

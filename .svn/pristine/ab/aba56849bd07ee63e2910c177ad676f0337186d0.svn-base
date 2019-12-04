@@ -1,0 +1,53 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Joseph Biggins
+ * Name: RentalCustomer.h
+ * Description: This file contains the class definition for RentalCustomer
+ -------------------------------------------------------------------------------*/
+
+
+#ifndef SRC_USER_H
+#define SRC_USER_H
+
+#include "Movie.h"
+
+using namespace std;
+
+class RentalCustomer
+{
+public:
+  const string & GetName() const
+  {
+    return m_Name;
+  }
+
+  void SetName(const string & Name)
+  {
+    m_Name = Name;
+  }
+
+  int GetNumberRented() const
+  {
+    return m_NumberRented;
+  }
+
+  void SetNumberRented(int NumberRented)
+  {
+    m_NumberRented = NumberRented;
+  }
+
+  const Movie & GetRentedMovie() const
+  {
+      return m_RentedMovie;
+  }
+
+  void SetRentedMovie(const Movie & RentedMovie)
+  {
+    m_RentedMovie = RentedMovie;
+  }
+
+private:
+  string m_Name;
+  int    m_NumberRented;
+  Movie  m_RentedMovie;
+};
+#endif // SRC_USER_H

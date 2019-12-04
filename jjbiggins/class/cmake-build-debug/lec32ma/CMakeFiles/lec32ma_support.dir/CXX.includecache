@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.cpp
+Date.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h
+iostream
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Employee.cpp
+Employee.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Employee.h
+Date.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h
+iostream
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Employee.h
+string
+-
+Date.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Homework.cpp
+Homework.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Homework.h
+Date.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h
+iostream
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Homework.h
+Date.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h
+

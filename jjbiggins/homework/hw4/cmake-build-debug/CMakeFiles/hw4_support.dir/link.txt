@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw4_support.a  CMakeFiles/hw4_support.dir/helperfunctions.cpp.o CMakeFiles/hw4_support.dir/Movie.cpp.o CMakeFiles/hw4_support.dir/RentalCustomer.cpp.o
+/usr/bin/ranlib libhw4_support.a

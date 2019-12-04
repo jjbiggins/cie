@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec35ma_support.a  CMakeFiles/lec35ma_support.dir/BasePlusCommissionEmployee.cpp.o CMakeFiles/lec35ma_support.dir/CommissionEmployee.cpp.o CMakeFiles/lec35ma_support.dir/InheritanceExamples.cpp.o CMakeFiles/lec35ma_support.dir/PhonePlan.cpp.o CMakeFiles/lec35ma_support.dir/PhonePlanWithData.cpp.o
+/usr/bin/ranlib liblec35ma_support.a

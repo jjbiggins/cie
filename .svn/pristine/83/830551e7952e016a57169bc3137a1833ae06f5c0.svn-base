@@ -1,0 +1,12 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+#include "Movie.h"
+#include "RentalCustomer.h"
+#include "helperfunctions.h"
+#include <iostream>
+
+using namespace std;
+

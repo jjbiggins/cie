@@ -1,0 +1,9 @@
+/* Programmer: Your Name Here
+*/
+#include <iostream>
+#include <stdio.h>
+#include "min_max.h"
+
+using namespace std;
+
+/*TODO: Implement the obtainMinMax function*/

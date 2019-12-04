@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/lec25ma.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+treeNode.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeNode.h
+treeFunctions.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeFunctions.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeFunctions.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+treeNode.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeNode.h
+treeFunctions.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeFunctions.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeFunctions.h
+treeNode.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeNode.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeNode.cpp
+iostream
+-
+treeNode.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeNode.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec25ma/treeNode.h
+

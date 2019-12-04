@@ -1,0 +1,21 @@
+/* Programmer: Your Name Here
+*/
+#include <iostream>
+#include <stdio.h>
+#include "min_max.h"
+
+using namespace std;
+
+float obtainMin(float arr[], const int n)
+{
+  float minValue = arr[0];
+  /* YOUR CODE HERE */
+  return minValue;
+}
+
+float obtainMax(float arr[], const int n)
+{
+  float maxValue = arr[0];
+  /* YOUR CODE HERE */
+  return maxValue;
+}

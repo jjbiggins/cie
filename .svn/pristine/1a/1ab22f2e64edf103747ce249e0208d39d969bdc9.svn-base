@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------------------
+ * Programmers: YOUR NAMES HERE
+ * Description: A 3pi robot program that provides a pin "security"
+ *              functionality so that the user has to enter a pin
+ *              correctly to see a secret message. It repeatedly:
+ *              (1) asks the user for a pin,
+ *              (2) stores the pin internally based on the pressed buttons and
+ *                  converts it to an integer, and
+ *              (3) compares the input pin to the one stored internally, displaying
+ *              a special message if the pin is entered correctly (but
+ *              a try again message if it is incorrectly entered).
+ ----------------------------------------------------------------------------*/
+#include <pololu/3pi.h>   /* allow use of 3pi robot functions */
+#include "battery.h"
+#include "pin.h"
+#include "robot_utils.h"
+
+int main(void) {
+    /* perform battery check */
+    bat_check();
+
+
+    /* define correct pin */
+    const int correctPin = 2730;
+    int attempts = 1;
+    while (1) {
+        /* display instructions to user */
+        clear();     /* clear the lcd */
+        print_two_lines("Enter ", "PIN");
+        delay_ms(2000);
+        int userPin = 0;
+
+        /* TODO: Call the readUserInput function */
+
+        /* TODO: compare pins, displaying appropriate message */
+        /* TODO: YOUR CODE HERE */
+
+        attempts++;
+        delay_ms(2000);
+    }
+}
+
+
+

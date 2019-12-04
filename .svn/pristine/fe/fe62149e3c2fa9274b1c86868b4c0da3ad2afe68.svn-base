@@ -1,0 +1,16 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name
+ * Date:
+ * Description: .
+ -------------------------------------------------------------------------------*/
+
+#ifndef HW2_TRACKANDPIDFUNCTIONS_H
+#define HW2_TRACKANDPIDFUNCTIONS_H
+
+#include "pid.h"
+
+// Prototype of required functions
+void set_PID_InputValues(pidController *PID);
+void compute_power_differenc(pidController *PID);
+
+#endif //HW2_TRACKANDPIDFUNCTIONS_H

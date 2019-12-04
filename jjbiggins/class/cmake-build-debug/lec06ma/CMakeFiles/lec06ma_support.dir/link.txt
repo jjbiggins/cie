@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec06ma_support.a  CMakeFiles/lec06ma_support.dir/ComplexNumber.cpp.o CMakeFiles/lec06ma_support.dir/complexExamples.cpp.o CMakeFiles/lec06ma_support.dir/stringExamples.cpp.o CMakeFiles/lec06ma_support.dir/miniAssignment.cpp.o
+/usr/bin/ranlib liblec06ma_support.a

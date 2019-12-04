@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/lec03ma.dir/lec03ma.cpp.o  -o lec03ma -rdynamic 

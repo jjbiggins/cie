@@ -1,0 +1,73 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+
+#include "RentalCustomer.h"
+#include "Movie.h"
+#include <iostream>
+
+using namespace std;
+
+RentalCustomerPtrType createTreeNodeRentalCustomer(const char* InitialUserNamesList)
+{
+  RentalCustomerPtrType newUserPtr = nullptr;
+
+  newUserPtr = new RentalCustomer;
+
+  if(newUserPtr != nullptr)
+  {
+    newUserPtr->setNextPtr(nullptr);
+    newUserPtr->setName(InitialUserNamesList);
+    newUserPtr->setMoviePtr(nullptr);
+  }
+}
+
+
+void insertRentalCustomerNodeLinkedList(RentalCustomerPtrType *customerList, const char* InitialUserNamesList, MoviePtrType ){
+
+ /* if(*userStartPtr == nullptr)
+  {
+    *userStartPtr = createTreeNodeRentalCustomer(InitialUserNamesList);
+  }*/
+  RentalCustomerPtrType newUserPtr;
+  newUserPtr = new RentalCustomer;
+
+  if(newUserPtr != nullptr)
+  {
+    newUserPtr->setNextPtr(nullptr);
+    newUserPtr->setName(InitialUserNamesList);
+
+  }
+
+  RentalCustomerPtrType beforeUserNodePtr = nullptr;
+  RentalCustomerPtrType afterUserNodePtr = *customerList;
+
+  while (afterUserNodePtr != nullptr && afterUserNodePtr->getName() < InitialUserNamesList) {
+    beforeUserNodePtr = afterUserNodePtr;
+    afterUserNodePtr = afterUserNodePtr->getNextPtr();
+  }
+
+  if (beforeUserNodePtr == nullptr)
+  {
+    newUserPtr->setNextPtr(*customerList);
+    *customerList = newUserPtr;
+  }
+  else
+  {
+    beforeUserNodePtr->setNextPtr(newUserPtr);
+    newUserPtr->setNextPtr(afterUserNodePtr);
+  }
+}
+
+void printRentalCustomerLinkedList(RentalCustomerPtrType startPtr)
+{
+    RentalCustomerPtrType currentPtr;
+    for (currentPtr = startPtr; currentPtr != nullptr; currentPtr = currentPtr->getNextPtr())
+    {
+        int userNumber = currentPtr->getUserNumber();
+        cout << userNumber << ". " << currentPtr->getName() << endl;
+    }
+    cout << endl;
+}

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/Time.cpp
+iomanip
+-
+stdexcept
+-
+sstream
+-
+string
+-
+Time.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/Time.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/Time.h
+string
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/lec29ma.cpp
+iostream
+-
+stdexcept
+-
+Time.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/Time.h
+

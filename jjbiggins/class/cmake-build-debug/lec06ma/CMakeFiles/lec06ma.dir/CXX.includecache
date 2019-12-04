@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/ComplexNumber.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/complexExamples.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/lec06ma.cpp
+iostream
+-
+string
+-
+stringExamples.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/stringExamples.h
+ComplexNumber.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/ComplexNumber.h
+complexExamples.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/complexExamples.h
+miniAssignment.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/miniAssignment.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/miniAssignment.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/stringExamples.h
+

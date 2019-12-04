@@ -1,0 +1,115 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+#include "Movie.cpp"
+#include "RentalCustomer.cpp"
+
+using namespace std;
+
+/*const string traverseMoviesToBeRentedList(const string movieName, MoviePtrType moviesToBeRented){
+
+  MoviePtrType currentPtr;
+  MoviePtrType newMoviePtr = nullptr;
+  for (currentPtr = moviesToBeRented; currentPtr != nullptr; currentPtr = currentPtr->getNextPtr())
+  {
+    if(currentPtr->getName() == movieName){
+      newMoviePtr = currentPtr->getMoviePtr();
+      cout <<"fuck yea" << endl;
+      return newUserPtr;
+    }
+  }
+}
+}*/
+
+MoviePtrType traverseCustomerList(const string userName, RentalCustomerPtrType customerList){
+
+  RentalCustomerPtrType currentPtr;
+  MoviePtrType newUserPtr = nullptr;
+  for (currentPtr = customerList; currentPtr != nullptr; currentPtr = currentPtr->getNextPtr())
+  {
+    if(currentPtr->getName() == userName){
+      newUserPtr = currentPtr->getMoviePtr();
+      return newUserPtr;
+    }
+    cout << currentPtr << endl;
+  }
+}
+
+void preOrderPrint(RentalCustomerPtrType customerList)
+{
+    if (customerList != nullptr)
+    {
+      cout << customerList->getName() << " ";
+      cout << "boston" << endl;
+      if(customerList->getMoviePtr() != nullptr) {
+        cout << "fuck" << endl;
+        printMovieLinkedList(customerList->getMoviePtr());
+      }
+      else {
+        preOrderPrint(customerList->getNextPtr());
+      }
+    }
+}
+
+/*
+MoviePtrType createUserMovieListNode(const char* movieName)
+{
+    MoviePtrType newMovieNode;
+    newMovieNode = new Movie;
+
+    if(newMovieNode != nullptr){
+        newMovieNode->setNextPtr(nullptr);
+        newMovieNode->setName(movieName);
+    }
+}*/
+
+/*void insertNodeToUserMovieList(RentalCustomerPtrType *customerPtr, const char* movieName)
+{
+    MoviePtrType newRentedMovie;
+    newRentedMovie = new Movie;
+
+    RentalCustomerPtrType beforeUserNodePtr = nullptr;
+    RentalCustomerPtrType afterUserNodePtr = *customerPtr;
+
+    while (afterUserNodePtr != nullptr && afterUserNodePtr->getName() < movieName) {
+        beforeUserNodePtr = afterUserNodePtr;
+        afterUserNodePtr = afterUserNodePtr->getNextPtr();
+    }
+
+    if (beforeUserNodePtr == nullptr)
+    {
+        newUserPtr->setNextPtr(*customerList);
+        *customerList = newUserPtr;
+    }
+    else
+    {
+        beforeUserNodePtr->setNextPtr(newUserPtr);
+        newUserPtr->setNextPtr(afterUserNodePtr);
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

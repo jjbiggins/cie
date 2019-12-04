@@ -1,0 +1,24 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/Node.cpp" "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/cmake-build-debug/CMakeFiles/lec26ma.dir/Node.cpp.o"
+  "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/lec26ma.cpp" "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/cmake-build-debug/CMakeFiles/lec26ma.dir/lec26ma.cpp.o"
+  "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/linkedListFunctions.cpp" "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/cmake-build-debug/CMakeFiles/lec26ma.dir/linkedListFunctions.cpp.o"
+  "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/treeFunctions.cpp" "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/cmake-build-debug/CMakeFiles/lec26ma.dir/treeFunctions.cpp.o"
+  "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/treeNode.cpp" "/Users/jcb/Dropbox/WORK/Courses/CIE/ENGR2730Private/startingIndividualFiles/lec26ma/cmake-build-debug/CMakeFiles/lec26ma.dir/treeNode.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec04_support_lib.a  CMakeFiles/lec04_support_lib.dir/count_twos.cpp.o
+/usr/bin/ranlib liblec04_support_lib.a

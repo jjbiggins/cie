@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec18ma_support.a  CMakeFiles/lec18ma_support.dir/maze.cpp.o CMakeFiles/lec18ma_support.dir/robotCLArgs.cpp.o CMakeFiles/lec18ma_support.dir/robotModel.cpp.o CMakeFiles/lec18ma_support.dir/robotMovement.cpp.o
+/usr/bin/ranlib liblec18ma_support.a

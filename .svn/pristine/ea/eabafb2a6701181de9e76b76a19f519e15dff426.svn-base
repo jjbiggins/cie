@@ -1,0 +1,24 @@
+
+extern void printTypeAndValue(const float value);
+extern void printTypeAndValue(const double value);
+extern void printTypeAndValue(const int value);
+
+/*TODO: Specify the function prototypes for required functions*/
+float averagef(float x1, float x2, float x3, float x4);
+float product(float x1 = 1, float x2 = 1, float x3 = 1, float x4 = 1);
+float sum(float x1 = 0, float x2 = 0, float x3 = 0, float x4 = 0);
+
+
+extern float average(const float x1, const float x2, const float x3, const float x4);
+
+/*TODO: Specify the function prototypes for required functions*/
+double average(double x1, double x2, double x3, double x4);
+double product(double x1 = 1, double x2 = 1, double x3 = 1, double x4 = 1);
+double sum(double x1 = 0, double x2 = 0, double x3 = 0, double x4 = 0);
+
+
+
+/*TODO: Specify the function prototypes for required functions*/
+int average(int x1, const int x2, const int x3, const int x4);
+int product(int x1 = 1, int x2 = 1, int x3 = 1, int x4 = 1);
+int sum(int x1 = 0, int x2 = 0, int x3 = 0, int x4 = 0);

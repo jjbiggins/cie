@@ -1,0 +1,72 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+
+#include "RentalCustomer.h"
+#include "Movie.h"
+#include <iostream>
+
+using namespace std;
+
+/*RentalCustomerPtrType createTreeNodeRentalCustomer(const char* InitialUserNamesList)
+{
+  RentalCustomerPtrType newUserPtr = nullptr;
+  newUserPtr = new RentalCustomer;
+
+  if(newUserPtr != nullptr)
+  {
+    newUserPtr->setNextPtr(nullptr);
+    newUserPtr->setName(InitialUserNamesList);
+    newUserPtr->setMoviePtr(nullptr);
+  }
+}*/
+
+
+void insertRentalCustomerNodeLinkedList(RentalCustomerPtrType *customerList, const string userName){
+
+ /* if(*userStartPtr == nullptr)
+  {
+    *userStartPtr = createTreeNodeRentalCustomer(InitialUserNamesList);
+  }*/
+  RentalCustomerPtrType newUserPtr;
+  newUserPtr = new RentalCustomer;
+
+  if(newUserPtr != nullptr)
+  {
+    newUserPtr->setNextPtr(nullptr);
+    newUserPtr->setName(userName);
+    newUserPtr->setMoviePtr(nullptr);
+  }
+
+  RentalCustomerPtrType beforeUserNodePtr = nullptr;
+  RentalCustomerPtrType afterUserNodePtr = *customerList;
+
+  while(afterUserNodePtr != nullptr && afterUserNodePtr->getName() < userName){
+    beforeUserNodePtr = afterUserNodePtr;
+    afterUserNodePtr = afterUserNodePtr->getNextPtr();
+  }
+
+  if (beforeUserNodePtr == nullptr)
+  {
+    newUserPtr->setNextPtr(*customerList);
+    *customerList = newUserPtr;
+  }
+  else
+  {
+    beforeUserNodePtr->setNextPtr(newUserPtr);
+    newUserPtr->setNextPtr(afterUserNodePtr);
+  }
+}
+
+
+void printRentalCustomerLinkedList(RentalCustomerPtrType customerList)
+{
+    RentalCustomerPtrType currentPtr;
+    for (currentPtr = customerList; currentPtr != nullptr; currentPtr = currentPtr->getNextPtr())
+    {
+        cout << currentPtr->getName() << endl;
+    }
+    cout << endl;
+}

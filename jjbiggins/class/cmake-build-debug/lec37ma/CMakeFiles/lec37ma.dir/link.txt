@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -Wall -Wno-missing-braces -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -g   CMakeFiles/lec37ma.dir/lec37ma.cpp.o  -o lec37ma -rdynamic 

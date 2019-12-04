@@ -1,0 +1,4 @@
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/GroupA17/class/lec10ma/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/GroupA17/class/lec10ma/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/GroupA17/class/lec10ma/cmake-build-debug/CMakeFiles/flash.dir
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/GroupA17/class/lec10ma/cmake-build-debug/CMakeFiles/lec10ma.obj.dir

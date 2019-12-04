@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/Movie.h
+string
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/RentalCustomer.h
+Movie.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/Movie.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/helperfunctions.h
+RentalCustomer.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/RentalCustomer.h
+Movie.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/Movie.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/hw4.cpp
+iostream
+-
+RentalCustomer.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/RentalCustomer.h
+helperfunctions.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/homework/hw4/helperfunctions.h
+string
+-
+

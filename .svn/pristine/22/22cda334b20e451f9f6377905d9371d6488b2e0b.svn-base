@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name
+ * Date:
+ * Description: .
+ -------------------------------------------------------------------------------*/
+
+#include "robotHelperFunctions.h"
+
+int main()
+{
+
+  // set up the 3pi
+  initializeRobot();
+  pidController PID;
+  trackSelector trackSelect;
+
+  unsigned int sensors[5] = {0}; // an array to hold sensor values
+  unsigned int position;
+
+  trackSelect.setM_TrackType(TRACK0);
+  set_motors(trackSelect.getM_Speed(), trackSelect.getM_Speed());
+
+
+  hile (1) {
+    // This is the "main loop" - it will run forever.
+    // Get the position of the line.  Note that we *must* provide
+    // the "sensors" argument to read_line() here, even though we
+    // are not interested in the individual sensor readings.
+    position = read_line(sensors, IR_EMITTERS_ON);
+    PID.setM_Proportional(position);
+    if(position > 4000){
+      determine_RoadSign();
+    }
+
+
+    lcd_goto_xy(0, 1);
+    print("ADD CODE");
+  }
+
+
+}
+

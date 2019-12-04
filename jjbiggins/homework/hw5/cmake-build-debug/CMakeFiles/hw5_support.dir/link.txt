@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw5_support.a  CMakeFiles/hw5_support.dir/json/jsoncpp.cpp.o CMakeFiles/hw5_support.dir/HW5JsonHelper.cpp.o CMakeFiles/hw5_support.dir/HW5HelperFunctions.cpp.o CMakeFiles/hw5_support.dir/HealthStatus.cpp.o CMakeFiles/hw5_support.dir/Item.cpp.o CMakeFiles/hw5_support.dir/PurchaseRecord.cpp.o CMakeFiles/hw5_support.dir/Character.cpp.o CMakeFiles/hw5_support.dir/StoreInventoryItem.cpp.o CMakeFiles/hw5_support.dir/Store.cpp.o
+/usr/bin/ranlib libhw5_support.a

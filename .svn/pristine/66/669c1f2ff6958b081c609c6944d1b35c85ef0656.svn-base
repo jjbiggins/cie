@@ -1,0 +1,56 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+#ifndef MOVIE_H
+#define MOVIE_H
+
+#include <string>
+
+using namespace std;
+
+class Movie {
+public:
+
+  const string& getName() const
+  {;
+    return m_Name;
+  }
+
+  void setName(const string& name)
+  {
+    m_Name = name;
+  }
+
+  Movie* getNextPtr() const
+  {
+    return m_nextPtr;
+  }
+
+  void setNextPtr(Movie* nextPtr)
+  {
+    m_nextPtr = nextPtr;
+  }
+
+    void setNumber(int movieNumber){
+        m_Number = movieNumber;
+    }
+
+    int getNumber(){
+        return m_Number;
+    }
+
+private:
+  string m_Name;
+  Movie* m_nextPtr;
+    int m_Number;
+};
+
+typedef Movie* MoviePtrType;
+
+void insertNodeMovieLinkedList(MoviePtrType *startPtr, const string movieName);
+
+void printMovieLinkedList(MoviePtrType startPtr);
+
+#endif // MOVIE_H

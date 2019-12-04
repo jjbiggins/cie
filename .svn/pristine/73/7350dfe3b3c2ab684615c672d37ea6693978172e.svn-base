@@ -1,0 +1,40 @@
+//
+// Created by jjbiggins on 4/19/17.
+//
+
+#ifndef HOMEWORK5_HEALTHSTATUS_H
+#define HOMEWORK5_HEALTHSTATUS_H
+
+#include <iomanip>
+
+class HealthStatus {
+public:
+  HealthStatus(double food = 0.0, double clothes = 0.0, double entertainment = 0.0):
+          m_food{food}, m_clothes{clothes}, m_entertainment{entertainment}{};
+
+  double getM_food() const {
+    return m_food;
+  }
+
+  double getM_clothes() const {
+    return m_clothes;
+  }
+
+  double getM_entertainment() const {
+    return m_entertainment;
+  }
+  std::string toString() const
+  {
+    std::string healthMetrics = "Food: %f  Clothes: %f  Entertainment: %f", m_food, m_clothes, m_entertainment;
+
+    return healthMetrics;
+  }
+
+private:
+  double m_food;
+  double m_clothes;
+  double m_entertainment;
+};
+
+
+#endif //HOMEWORK5_HEALTHSTATUS_H

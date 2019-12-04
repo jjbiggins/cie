@@ -1,0 +1,113 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "Node.h"
+#include "queueFunctions.h"
+using namespace std;
+
+
+/*-----------------------------------------------------------------------------
+ * Function name: queueDequeue
+ * Description: This function deletes the head (first) node from the queue and
+ *              returns its value. The queue is assumed to not be empty.
+ * Input: headPtr = pointer to NodePtr = pointer to the pointer of the head
+ *                                       of the queue (first node in list)
+ *        tailPtr = pointer to NodePtr = pointer to pointer of the tail of
+ *                                       the queue (last node in list)
+ * Output: headPtr = pointer to NodePtr = pointer to the pointer of the new
+ *                                        head of the queue.
+ *         tailPtr = pointer to NodePtr = pointer to the pointer of the new
+ *                                        tail of the queue. This will only
+ *                                        be modified if the list becomes
+ *                                        empty.
+ ----------------------------------------------------------------------------*/
+int queueDequeue(NodePtr *headPtr, NodePtr *tailPtr)
+{
+  int value = 0;
+  NodePtr originalHeadNodeToDelete;
+
+  if (*headPtr != nullptr)
+    {
+      /* save data member value of head node */
+      /* TODO: YOUR CODE HERE (ONE LINE) */
+      value = (*headPtr)->getData();
+
+      /* save pointer to original head node in the variable originalHeadNodeToDelete */
+      /* TODO: YOUR CODE HERE (ONE LINE) */
+      originalHeadNodeToDelete = *headPtr;
+
+      /* modify *headPtr to point to next node */
+      /* TODO: YOUR CODE HERE (ONE LINE) */
+      *headPtr = (*headPtr)->getNextPtr();
+
+      /* if list is now empty, need to also set *tailPtr to be NULL */
+      if (*headPtr == nullptr)
+        {
+          /* TODO: YOUR CODE HERE (ONE LINE) */
+          *tailPtr = nullptr;
+        }
+
+      /* free memory for the original head of the queue */
+      delete originalHeadNodeToDelete;
+    }
+  else
+    {
+      cout << "Error. Attempting to dequeue node from empty queue." << endl;
+    }
+
+  return value;
+}
+
+/*-----------------------------------------------------------------------------
+ * Function name: queueEnqueue
+ * Description: This function creates a new node with the given value and
+ *              inserts it at the tail (i.e., end) of the queue represented
+ *              as a linked list.
+ * Input: headPtr = pointer to NodePtr = pointer to the pointer of the head
+ *                                       of the queue (first node in list)
+ *        tailPtr = pointer to NodePtr = pointer to pointer of the tail of
+ *                                       the queue (last node in list)
+ *        value = int = integer value of node to be created/inserted at the
+ *                      tail of the queue (i.e., the end of the list)
+ * Output: headPtr = pointer to NodePtr = pointer to the pointer of the new
+ *                                        head of the queue. This will
+ *                                        only be modified when the original
+ *                                        list is empty.
+ *         tailPtr = pointer to NodePtr = pointer to the pointer of the new
+ *                                        tail of the queue.
+ ----------------------------------------------------------------------------*/
+void queueEnqueue(NodePtr *headPtr, NodePtr *tailPtr, int value)
+{
+  NodePtr newNodePtr = nullptr;
+
+  /* create new node */
+  /* YOUR CODE HERE TO ALLOCATE MEMORY FOR NEW NODE (ONE LINE) */
+
+  /* add the new node to the tail of the queue */
+  if (newNodePtr != nullptr)
+    {
+      /* set appropriate member values of newNodePtr */
+      /* YOUR CODE HERE TO SET DATA MEMBER VALUE (ONE LINE) */
+      /* YOUR CODE HERE TO SET NEXTPTR MEMBER VALUE (ONE LINE) */
+
+      /* make the nextPtr of the current tail pointer point to the new node */
+      if (*tailPtr != nullptr)   /* if a node exists in the list */
+        {
+          (*tailPtr)->setNextPtr(newNodePtr);
+        }
+
+      /* make *tailPtr point to the new node */
+      *tailPtr = newNodePtr;
+
+      /*  if queue was previously empty, modify *headPtr to also point to the new node */
+      if (*headPtr == nullptr)
+        {
+          *headPtr = newNodePtr;
+        }
+    }
+  else
+    {
+      cout << "Error. No memory available to insert " << value << " into the queue.\n";
+    }
+}

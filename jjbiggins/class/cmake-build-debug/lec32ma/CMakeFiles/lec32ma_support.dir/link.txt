@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec32ma_support.a  CMakeFiles/lec32ma_support.dir/Date.cpp.o CMakeFiles/lec32ma_support.dir/Employee.cpp.o CMakeFiles/lec32ma_support.dir/Homework.cpp.o
+/usr/bin/ranlib liblec32ma_support.a

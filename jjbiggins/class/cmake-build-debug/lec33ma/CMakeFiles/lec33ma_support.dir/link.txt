@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec33ma_support.a  CMakeFiles/lec33ma_support.dir/Stack1.cpp.o CMakeFiles/lec33ma_support.dir/Stack2.cpp.o CMakeFiles/lec33ma_support.dir/StackFunctions.cpp.o CMakeFiles/lec33ma_support.dir/Node.cpp.o
+/usr/bin/ranlib liblec33ma_support.a

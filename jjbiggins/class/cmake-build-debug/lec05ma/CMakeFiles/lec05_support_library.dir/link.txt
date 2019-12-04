@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec05_support_library.a  CMakeFiles/lec05_support_library.dir/ComplexStruct.cpp.o
+/usr/bin/ranlib liblec05_support_library.a

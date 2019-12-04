@@ -1,0 +1,1 @@
+/usr/bin/avr-g++   -g -Wall -mcall-prologues -mmcu=atmega328p  -fno-exceptions -Os -std=c++11 -g   CMakeFiles/lec10ma.obj.dir/lec10ma.cpp.obj CMakeFiles/lec10ma.obj.dir/battery.cpp.obj  -o lec10ma.obj -lpololu_atmega328p 

@@ -1,0 +1,68 @@
+//
+// Created by Johnson, Hans J on 4/4/17.
+//
+
+#ifndef HOMEWORK5_HW5HELPERFUNCTIONS_H
+#define HOMEWORK5_HW5HELPERFUNCTIONS_H
+
+//#define CHAR_CLASS_CREATED
+//#define STORE_CLASS_CREATED
+//#define ITEMS_CLASS_CREATED
+
+#ifdef ITEMS_CLASS_CREATED //TODO: Remove these ifdef ITEM_CLASS_CREATED ONCE YOU HAVE AN ITEMS CLASS TO TEST
+#include "Item.h"
+#endif
+
+#ifdef CHAR_CLASS_CREATED//TODO: Remove these ifdef
+#include "Character.h"
+#endif
+
+#ifdef STORE_CLASS_CREATED//TODO: Remove these ifdef
+#include "Store.h"
+#endif
+
+
+
+#ifdef CHAR_CLASS_CREATED//TODO: Remove these ifdef
+/**
+ * @brief Create a map of characters
+ * @param one_character_type_database AJson::Value that contains only 1 character type (ie. princess, or ogre)
+ * @return map of characters objects
+ */
+extern CharacterMapType GetAllCharacters(const Json::Value& one_character_type_database);
+#endif
+
+#ifdef STORE_CLASS_CREATED//TODO: Remove these ifdef
+/**
+ * @brief Create a map of stores
+ * @param store_info_database AJson::Value that contains all the stores
+ * @return map of stores objects
+ */
+extern StoreMapType GetAllStores(const Json::Value& store_info_database);
+#endif
+
+#ifdef ITEMS_CLASS_CREATED //TODO: Remove these ifdef ITEM_CLASS_CREATED ONCE YOU HAVE AN ITEMS CLASS TO TEST
+/**
+ * @brief Create a map of items
+ * @param store_info_database AJson::Value that contains all the items
+ * @return map of item objects
+ */
+extern ItemMapType GetAllItems(const Json::Value& item_info_database);
+#endif
+
+#ifdef ITEMS_CLASS_CREATED//TODO: Remove these ifdef
+#ifdef STORE_CLASS_CREATED//TODO: Remove these ifdef
+#ifdef CHAR_CLASS_CREATED//TODO: Remove these ifdef
+/**
+ * @brief A function to create summary expenditures and health metric for character purchases
+ * @param oneCharacter
+ * @param all_stores
+ * @param all_items
+ */
+extern void PrintCummulativeHealthScoresAndExpenditures(Character & oneCharacter,
+  const StoreMapType & all_stores, const ItemMapType & all_items);
+#endif
+#endif
+#endif
+
+#endif //HOMEWORK5_HW5HELPERFUNCTIONS_H

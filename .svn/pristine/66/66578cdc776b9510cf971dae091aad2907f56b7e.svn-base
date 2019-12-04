@@ -1,0 +1,32 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name
+ * Date:
+ * Description: .
+ -------------------------------------------------------------------------------*/
+
+#include "robotHelperFunctions.h"
+
+int main()
+{
+
+  // set up the 3pi
+  initializeRobot();
+  pidController PID;
+  trackSelector trackSelect;
+
+  unsigned int sensors[5] = {0}; // an array to hold sensor values
+  unsigned int position;
+
+  trackSelect.setM_TrackType(TRACK0);
+  set_motors(trackSelect.getM_Speed(), trackSelect.getM_Speed());
+
+  while (1) {
+    // ADD YOUR CODE HERE
+    lcd_goto_xy(0, 1);
+    print("ADD CODE");
+
+  }
+
+
+}
+

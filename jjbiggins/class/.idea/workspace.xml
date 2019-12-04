@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="CIE2017" targetName="lec33ma" />
+      <config projectName="CIE2017" targetName="lec32ma_support" />
+      <config projectName="CIE2017" targetName="lec23ma" />
+      <config projectName="CIE2017" targetName="lec29ma" />
+      <config projectName="CIE2017" targetName="lec04_support_lib" />
+      <config projectName="CIE2017" targetName="lec04ma" />
+      <config projectName="CIE2017" targetName="lec32ma" />
+      <config projectName="CIE2017" targetName="lec19ma_support" />
+      <config projectName="CIE2017" targetName="lec13ma" />
+      <config projectName="CIE2017" targetName="lec19ma" />
+      <config projectName="CIE2017" targetName="lec22ma" />
+      <config projectName="CIE2017" targetName="lec03ma" />
+      <config projectName="CIE2017" targetName="min_max_library" />
+      <config projectName="CIE2017" targetName="lec31ma" />
+      <config projectName="CIE2017" targetName="lec37ma" />
+      <config projectName="CIE2017" targetName="lec12ma" />
+      <config projectName="CIE2017" targetName="lec18ma" />
+      <config projectName="CIE2017" targetName="setmath_library" />
+      <config projectName="CIE2017" targetName="lec06ma_support" />
+      <config projectName="CIE2017" targetName="lec25ma" />
+      <config projectName="CIE2017" targetName="lec08ma" />
+      <config projectName="CIE2017" targetName="lec30ma" />
+      <config projectName="CIE2017" targetName="lec36ma" />
+      <config projectName="CIE2017" targetName="lec11ma" />
+      <config projectName="CIE2017" targetName="lec17ma" />
+      <config projectName="CIE2017" targetName="lec05_support_library" />
+      <config projectName="CIE2017" targetName="lec35ma_support" />
+      <config projectName="CIE2017" targetName="lec20ma" />
+      <config projectName="CIE2017" targetName="lec26ma" />
+      <config projectName="CIE2017" targetName="lec07ma" />
+      <config projectName="CIE2017" targetName="lec05exCardExample" />
+      <config projectName="CIE2017" targetName="lec33ma_support" />
+      <config projectName="CIE2017" targetName="lec18ma_support" />
+      <config projectName="CIE2017" targetName="lec35ma" />
+      <config projectName="CIE2017" targetName="lec06ma" />
+      <config projectName="CIE2017" targetName="lec34ma" />
+      <config projectName="CIE2017" targetName="lec04_support" />
+      <config projectName="CIE2017" targetName="lec12min_max_library" />
+      <config projectName="CIE2017" targetName="lec24ma" />
+      <config projectName="CIE2017" targetName="lec07ex" />
+      <config projectName="CIE2017" targetName="lec05ma" />
+      <config projectName="CIE2017" targetName="lec04ex" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="258da371-dfdc-4d82-9127-217acc854914" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CIE2017" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Derived1.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec36ma/Derived1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Derived1.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec36ma/Derived1.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lec36ma.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec36ma/lec36ma.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheBaseClass.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lec36ma/TheBaseClass.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TheBaseClass.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lec36ma/TheBaseClass.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>push_back</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lec05ma/ComplexStruct.cpp" />
+        <option value="$PROJECT_DIR$/lec05ma/lec05ma.cpp" />
+        <option value="$PROJECT_DIR$/lec06ma/miniAssignment.cpp" />
+        <option value="$PROJECT_DIR$/lec07ma/min_max.h" />
+        <option value="$PROJECT_DIR$/lec07ma/lec07ma.cpp" />
+        <option value="$PROJECT_DIR$/lec07ma/min_max.cpp" />
+        <option value="$PROJECT_DIR$/lec08ma/setmath.h" />
+        <option value="$PROJECT_DIR$/lec08ma/setmath.cpp" />
+        <option value="$PROJECT_DIR$/lec12ma/min_max.cpp" />
+        <option value="$PROJECT_DIR$/lec13ma/lec13ma.cpp" />
+        <option value="$PROJECT_DIR$/lec18ma/lec18ma.cpp" />
+        <option value="$PROJECT_DIR$/lec18ma/robotMovement.cpp" />
+        <option value="$PROJECT_DIR$/lec22ma/linkedListFunctions.cpp" />
+        <option value="$PROJECT_DIR$/lec23ma/linkedListFunctions.cpp" />
+        <option value="$PROJECT_DIR$/lec25ma/lec25ma.cpp" />
+        <option value="$PROJECT_DIR$/lec24ma/stackFunctions.cpp" />
+        <option value="$PROJECT_DIR$/lec24ma/queueFunctions.cpp" />
+        <option value="$PROJECT_DIR$/lec26ma/treeFunctions.cpp" />
+        <option value="$PROJECT_DIR$/lec30ma/Time.h" />
+        <option value="$PROJECT_DIR$/lec31ma/lec31ma.cpp" />
+        <option value="$PROJECT_DIR$/lec32ma/Homework.h" />
+        <option value="$PROJECT_DIR$/lec32ma/lec32ma.cpp" />
+        <option value="$PROJECT_DIR$/lec32ma/Homework.cpp" />
+        <option value="$PROJECT_DIR$/lec34ma/bookWishListItem.cpp" />
+        <option value="$PROJECT_DIR$/lec34ma/bookWishListItem.h" />
+        <option value="$PROJECT_DIR$/lec34ma/lec34ma.cpp" />
+        <option value="$PROJECT_DIR$/lec35ma/PhonePlanWithData.h" />
+        <option value="$PROJECT_DIR$/lec35ma/PhonePlanWithData.cpp" />
+        <option value="$PROJECT_DIR$/lec35ma/lec35ma.cpp" />
+        <option value="$PROJECT_DIR$/lec35ma/PhonePlan.cpp" />
+        <option value="$PROJECT_DIR$/lec36ma/TheBaseClass.h" />
+        <option value="$PROJECT_DIR$/lec36ma/TheBaseClass.cpp" />
+        <option value="$PROJECT_DIR$/lec36ma/Derived1.h" />
+        <option value="$PROJECT_DIR$/lec36ma/Derived1.cpp" />
+        <option value="$PROJECT_DIR$/lec29ma/lec29ma.cpp" />
+        <option value="$PROJECT_DIR$/lec29ma/Time.h" />
+        <option value="$PROJECT_DIR$/lec29ma/Time.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="2560" />
+    <option name="height" value="1410" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIE2017" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CIE2017" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lec36ma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.lec35ma">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec03ma" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec03ma" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="class" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec03ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec03ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec03ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec04_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec04_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec04ex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec04ex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec04ex">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec04_support_lib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec04_support_lib" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec04ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec04ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec04ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec05_support_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec05_support_library" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec05exCardExample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec05exCardExample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec05exCardExample">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec05ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec05ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec05ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec06ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec06ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec06ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec06ma_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec06ma_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec07ex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec07ex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec07ex">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec07ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec07ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec07ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="min_max_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="min_max_library" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec08ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec08ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec08ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="setmath_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="setmath_library" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec11ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec11ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec11ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec12ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec12ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec12ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec12min_max_library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec12min_max_library" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec13ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec13ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec13ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec17ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec17ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec17ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec18ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec18ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec18ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec18ma_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec18ma_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec20ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec20ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec20ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec19ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec19ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec19ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec19ma_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec19ma_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec22ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec22ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec22ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec23ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec23ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec23ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec24ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec24ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec24ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec25ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec25ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec25ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec26ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec26ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec26ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec29ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec29ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec29ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec30ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec30ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec30ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec31ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec31ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec31ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec32ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec32ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec32ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec32ma_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec32ma_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec33ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec33ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec33ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec33ma_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec33ma_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec34ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec34ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec34ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec35ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec35ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec35ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec35ma_support" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec35ma_support" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec36ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec36ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec36ma">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="lec37ma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIE2017" TARGET_NAME="lec37ma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIE2017" RUN_TARGET_NAME="lec37ma">
+      <envs />
+      <method />
+    </configuration>
+    <list size="43">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.lec03ma" />
+      <item index="2" class="java.lang.String" itemvalue="Application.lec04_support" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lec04ex" />
+      <item index="4" class="java.lang.String" itemvalue="Application.lec04_support_lib" />
+      <item index="5" class="java.lang.String" itemvalue="Application.lec04ma" />
+      <item index="6" class="java.lang.String" itemvalue="Application.lec05_support_library" />
+      <item index="7" class="java.lang.String" itemvalue="Application.lec05exCardExample" />
+      <item index="8" class="java.lang.String" itemvalue="Application.lec05ma" />
+      <item index="9" class="java.lang.String" itemvalue="Application.lec06ma" />
+      <item index="10" class="java.lang.String" itemvalue="Application.lec06ma_support" />
+      <item index="11" class="java.lang.String" itemvalue="Application.lec07ex" />
+      <item index="12" class="java.lang.String" itemvalue="Application.lec07ma" />
+      <item index="13" class="java.lang.String" itemvalue="Application.min_max_library" />
+      <item index="14" class="java.lang.String" itemvalue="Application.lec08ma" />
+      <item index="15" class="java.lang.String" itemvalue="Application.setmath_library" />
+      <item index="16" class="java.lang.String" itemvalue="Application.lec11ma" />
+      <item index="17" class="java.lang.String" itemvalue="Application.lec12ma" />
+      <item index="18" class="java.lang.String" itemvalue="Application.lec12min_max_library" />
+      <item index="19" class="java.lang.String" itemvalue="Application.lec13ma" />
+      <item index="20" class="java.lang.String" itemvalue="Application.lec17ma" />
+      <item index="21" class="java.lang.String" itemvalue="Application.lec18ma" />
+      <item index="22" class="java.lang.String" itemvalue="Application.lec18ma_support" />
+      <item index="23" class="java.lang.String" itemvalue="Application.lec20ma" />
+      <item index="24" class="java.lang.String" itemvalue="Application.lec19ma" />
+      <item index="25" class="java.lang.String" itemvalue="Application.lec19ma_support" />
+      <item index="26" class="java.lang.String" itemvalue="Application.lec22ma" />
+      <item index="27" class="java.lang.String" itemvalue="Application.lec23ma" />
+      <item index="28" class="java.lang.String" itemvalue="Application.lec24ma" />
+      <item index="29" class="java.lang.String" itemvalue="Application.lec25ma" />
+      <item index="30" class="java.lang.String" itemvalue="Application.lec26ma" />
+      <item index="31" class="java.lang.String" itemvalue="Application.lec29ma" />
+      <item index="32" class="java.lang.String" itemvalue="Application.lec30ma" />
+      <item index="33" class="java.lang.String" itemvalue="Application.lec31ma" />
+      <item index="34" class="java.lang.String" itemvalue="Application.lec32ma" />
+      <item index="35" class="java.lang.String" itemvalue="Application.lec32ma_support" />
+      <item index="36" class="java.lang.String" itemvalue="Application.lec33ma" />
+      <item index="37" class="java.lang.String" itemvalue="Application.lec33ma_support" />
+      <item index="38" class="java.lang.String" itemvalue="Application.lec34ma" />
+      <item index="39" class="java.lang.String" itemvalue="Application.lec35ma" />
+      <item index="40" class="java.lang.String" itemvalue="Application.lec35ma_support" />
+      <item index="41" class="java.lang.String" itemvalue="Application.lec36ma" />
+      <item index="42" class="java.lang.String" itemvalue="Application.lec37ma" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="258da371-dfdc-4d82-9127-217acc854914" name="Default" comment="" />
+      <created>1485544043968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485544043968</updated>
+      <workItem from="1485544054527" duration="760000" />
+      <workItem from="1485730067657" duration="739000" />
+      <workItem from="1485801427142" duration="2008000" />
+      <workItem from="1486080377876" duration="3943000" />
+      <workItem from="1486147343271" duration="55000" />
+      <workItem from="1486147466786" duration="388000" />
+      <workItem from="1486404324239" duration="1031000" />
+      <workItem from="1486485872980" duration="184000" />
+      <workItem from="1487181413809" duration="708000" />
+      <workItem from="1487184177582" duration="1442000" />
+      <workItem from="1488393942231" duration="590000" />
+      <workItem from="1488411974479" duration="338000" />
+      <workItem from="1488412601419" duration="1091000" />
+      <workItem from="1488566456497" duration="1289000" />
+      <workItem from="1489150954505" duration="60000" />
+      <workItem from="1489151093139" duration="78000" />
+      <workItem from="1490031622767" duration="605000" />
+      <workItem from="1490203440404" duration="33000" />
+      <workItem from="1490375391052" duration="21000" />
+      <workItem from="1490375896287" duration="1257000" />
+      <workItem from="1490637996924" duration="55000" />
+      <workItem from="1490808188171" duration="88000" />
+      <workItem from="1490822603328" duration="1118000" />
+      <workItem from="1490830158495" duration="1799000" />
+      <workItem from="1490832038069" duration="1346000" />
+      <workItem from="1491584735465" duration="202000" />
+      <workItem from="1492649833251" duration="133000" />
+      <workItem from="1492650681871" duration="139000" />
+      <workItem from="1492651003510" duration="6000" />
+      <workItem from="1492717034147" duration="4009000" />
+      <workItem from="1492721106500" duration="202000" />
+      <workItem from="1492721742873" duration="1043000" />
+      <workItem from="1492722881287" duration="3248000" />
+      <workItem from="1492727283292" duration="208000" />
+      <workItem from="1492744415779" duration="73000" />
+      <workItem from="1492744873462" duration="72000" />
+      <workItem from="1492749253183" duration="481000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30842000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1410" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32895783" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32529184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18910506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258427" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299611" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19101124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10015898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lec24ma/linkedListFunctions.cpp</url>
+          <line>39</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lec32ma/Employee.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Employee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Homework.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/lec32ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Homework.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec31ma/classExamples.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec31ma/classExamples.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec31ma/lec31ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec30ma/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec30ma/lec30ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec30ma/Time.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec30ma/classExamples.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec30ma/classExamples.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec30ma/Time.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Date.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Date.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Employee.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Employee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Homework.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/lec32ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec32ma/Homework.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/wishListItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/videoGameWishListItem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/wishListItem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/videoGameWishListItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/lec34ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/bookWishListItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec34ma/bookWishListItem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/BasePlusCommissionEmployee.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/BasePlusCommissionEmployee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/CommissionEmployee.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/CommissionEmployee.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/InheritanceExamples.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/InheritanceExamples.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/PhonePlan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/lec35ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="143" column="24" lean-forward="false" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/PhonePlan.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/PhonePlanWithData.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec35ma/PhonePlanWithData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec37ma/lec37ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec29ma/Time.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec29ma/Time.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec29ma/lec29ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec31ma/lec31ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1522">
+          <caret line="191" column="25" lean-forward="true" selection-start-line="191" selection-start-column="25" selection-end-line="191" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec31ma/classExamples.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec31ma/classExamples.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec36ma/Derived1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec36ma/Derived1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec36ma/lec36ma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec36ma/TheBaseClass.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lec36ma/TheBaseClass.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

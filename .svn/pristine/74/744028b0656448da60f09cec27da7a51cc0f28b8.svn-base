@@ -1,0 +1,164 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Shawn Rennegarbe & Joe Biggins
+ * Date: February 24, 2017
+ * Description: .hw2.cpp applies the movie rental program from hw1 to the robot. Movie checkout and movie return are the necessary options.
+ -------------------------------------------------------------------------------*/
+#include <pololu/3pi.h>   /* allow use of 3pi robot functions */
+#include "Movie.h"
+#include "RentalCustomer.h"
+#include "helperfunctions.h"
+#include "battery.h"
+#include "RobotString.h"
+
+int main(void)
+{
+  bat_check();
+
+  static const char* const MovieNameList[MAXMOVIES] = {
+    "Passengers", "La La Land", "Assasins Creed", "Sing",
+    "Suicide Squad", "The Girl on the Train", "The Magnificient Seven",
+    "Underworld: Blood Wars", "Fifty Shades Darker", "Moana", "Arrival"
+  }; //MIGHT HAVE TO SHORTEN NAMES TO 8 LETTERS
+
+  Movie Movies[MAXMOVIES];
+  for (unsigned int num = 0; num<MAXMOVIES; ++num) {
+    RobotString temp;
+    temp.SetStringArray(MovieNameList[num]);
+    Movies[num].SetName(temp);
+    Movies[num].SetNumber(num);
+  }
+
+  static const char* const UserNamesList[MAXUSERS] = {
+    "E.Mou", "B.Evans", "B.Schweer", "R.Su", "K.Anderson", "K.Christensen", "M.Jacob", "H.Johnson"
+  };
+  RentalCustomer Users[MAXUSERS];
+  for (unsigned int idx = 0; idx<MAXUSERS; ++idx) {
+    RobotString temp;
+    temp.SetStringArray(UserNamesList[idx]);
+    Users[idx].SetName(temp);
+    Users[idx].SetNumberRented(0);
+  }
+  bool rented[MAXMOVIES] = {false, false, false, false, false, false, false, false, false}; //IN MY CODE, I USED A FUNCTION IN MOVIE.H CALLED AVAILABILITY.. BASICALLY IT'S THE SAME AS SETNUMRENTED IN RENTALCUSTOMER.H BUT CHECKS MOVIES INSTEAD. I ADDED THAT IN HERE, BUT USE WHATEVER IS EASIEST TO YOU!
+
+  /* Some useful strings for displaying status messages */
+  RobotString rentedStringValue;
+  rentedStringValue.SetStringArray("rented");
+  RobotString sorryRentedValue;
+  sorryRentedValue.SetStringArray("Sory;Ret");
+  RobotString returnedMovieValue;
+  returnedMovieValue.SetStringArray("returned");
+
+  /* Welcome screen */
+  print_two_lines("Welcome", "Mov rntl");
+  delay_ms(300);
+
+  while (1) {
+    print_two_lines("A.Rent", "C.Return");
+    // See documentation https://www.pololu.com/docs/0J18/9
+    unsigned char button = wait_for_button_press(BUTTON_A | BUTTON_C);
+
+    // YOUR CODE HERE
+
+
+      
+      if( button == BUTTON_A )     //user presses button A
+      {
+          lcd_goto_xy(0, 0);
+          print("rent");
+
+
+          //Shawn's code from hw1
+          for (int j = 0; j < 8; j++) //gives user list of names...IF THIS WORKS???
+          {
+              print(MovieNameList[j]);
+          }
+
+          print("Num Customer?"); //prompts user to pick customer from whole list
+       //   cin >> nameChoiceNum; //user inputs number of choice (which is j+1=k) for movie
+       //   nameChoice = names[nameChoiceNum - 1]; //nameChoice gives customer name for cooresponding number
+        //SEE BELOW ABOUT FINDING WAY TO USE BUTTONS
+
+
+          if (UserNamesList[nameChoiceNum - 1].GetNumberRented() == 0) //if chosen customer does not have any rented movies currently, enter this loop
+          {
+              for (int i = 0; i < 11; i++) //loop prints all movies that are not currently checked out
+              {
+                  printAvailableMovies(rentalMovies[i]); //CHANGE ROBOT TO PRINT USING ROBOTSTRING.H
+              }
+
+              print("Num Movie?"); //prompts user to pick movie from available list
+
+             /* cin >> movieChoiceNum; //user inputtted movie number
+              movieChoice = movies[movieChoiceNum - 1]; //movieChoice gives movie name cooresponding number */
+
+              if (MovieNameList[movieChoiceNum - 1].GetAvailability() == 1) //if movie is not currently checked out, enter this loop
+              {
+                  //set of commands sets movie name, customer name, rented amount, and availability from array
+                  MovieNameList[movieChoiceNum - 1].SetName(movieChoice);
+                  MovieNameList[movieChoiceNum - 1].SetNumber((movieChoiceNum - 1));
+                  MovieNameList[movieChoiceNum - 1].SetAvailability(0);
+                  UserNamesList[nameChoiceNum - 1].SetName(nameChoice);
+                  UserNamesList[nameChoiceNum - 1].SetNumberRented((nameChoiceNum - 1));
+                  UserNamesList[nameChoiceNum - 1].SetRentedMovie(rentalMovies[movieChoiceNum - 1]);
+                  UserNamesList[nameChoiceNum - 1].SetNumberRented(1);
+
+                  print("Rented!"); //shows user movie was successfully entered
+                  printRentalCustomer(UserNamesList[nameChoiceNum - 1]); //prints out movie name and customer...DO WE NEED THIS??
+              }
+              else if (MovieNameList[movieChoiceNum - 1].GetAvailability() == 0) //if movie is not available, enter this loop
+              {
+                  print("Checked out");
+              }
+          }
+
+
+          else if (UserNamesList[nameChoiceNum - 1].GetNumberRented() == 1)  //enters this loop if customer already has a movie checked out
+          {
+              print("User already has a movie.");
+          }
+
+          wait_for_button_release(BUTTON_A);
+      }
+
+
+
+
+
+      else if( button == BUTTON_C )      //User presses button C: RETURN STATUS
+      {
+
+          //Shawn's code from hw1
+          lcd_goto_xy(0, 0);
+          for ( int j = 0; j < 8; j++) //gives user list of customer names to choose from for return...does this work??
+          {
+              print(UserNamesList[j]);
+          }
+
+          //FIND WAY TO USE BUTTONS TO CHOOSE PERSON... HIT BUTTON A FOR THE COORESPONDING NUMBER OF PERSON?? IF SO, ADD NUMBERS IN CUSTOMER ARRAY. In my hw1 code, I assigned integers to each move and customer and then called them nameChoiceNum and movieChoiceNum
+
+        /*  print("Type in Number of Customer"); //prompts user to pick customer from whole list
+          cin >> nameChoiceNum; //user inputs number of choice (which is j+1=k) for movie
+          nameChoice = names[nameChoiceNum - 1]; //nameChoice gives customer name for cooresponding number */
+
+            //with if and else if statements, find way to use buttons... will replace "nameChoiceNum" below
+
+
+          if(Users[nameChoiceNum].GetNumberRented() == 1) //if customer has a movie rented, enters this loop to return
+          {
+              print("Movie Returned");
+              Users[nameChoiceNum].SetNumberRented(0); //sets number of movies rented by this customer to 0
+          }
+
+          else if (Users[nameChoiceNum].GetNumberRented() == 0) //if customer does not have a movie out, will enter this loop
+          {
+              print("No movie rented");
+          }
+
+          wait_for_button_release(BUTTON_C);
+      }
+
+  }
+  return 0;
+}
+
+

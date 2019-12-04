@@ -1,0 +1,96 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name
+ * Date:
+ * Description: .
+ -------------------------------------------------------------------------------*/
+#include "pid.h"
+
+// Add definition of required functions
+void set_PID_InputValues(pidController *PID) {
+  // Get the position of the line.  Note that we *must* provide
+  // the "sensors" argument to read_line() here, even though we
+  // are not interested in the individual sensor readings.
+
+  // The "proportional" term should be 0 when we are on the line.
+  int position = PID->getM_Proportional();
+  int proportional = (position) - 2000;
+
+  // Compute the derivative (change) and integral (sum) of the
+  int last_proportional = PID->getM_LastProportional();
+
+  int derivative = proportional - last_proportional;
+  PID->setM_Differential(derivative);
+
+  int integral = PID->getM_Integral();
+  integral += proportional;
+  PID->setM_Integral(integral);
+
+  // Remember the last position.
+  PID->setM_LastProportional(proportional);
+}
+
+
+void compute_power_difference(pidController *PID, trackSelector *trackSelect) {
+  // Compute the difference between the two motor power settings,
+  // m1 - m2.  If this is a positive number the robot will turn
+  // to the right.  If it is a negative number, the robot will
+  // turn to the left, and the magnitude of the number determines
+  // the sharpness of the turn.
+  int proportional = PID->getM_Proportional();
+  int derivative = PID->getM_Differential();
+  int integral = PID->getM_Integral();
+  int base_speed = trackSelect->getM_Speed();
+
+  int power_difference = proportional / 20 + integral / 10000 + derivative * 3 / 2;
+  PID->setM_powerDifference(power_difference);
+
+  // Compute the actual motor settings.  We never set either motor
+  // to a negative value.
+  if (power_difference > base_speed)
+    power_difference = base_speed;
+  if (power_difference < -base_speed)
+    power_difference = -base_speed;
+
+  if (power_difference < 0) {
+    PID->setLeftMotorSpeed(base_speed + power_difference);
+    PID->setRightMotorSpeed(base_speed);
+    set_motors(base_speed + power_difference, base_speed);
+  }
+  else {
+    PID->setLeftMotorSpeed(base_speed);
+    PID->setRightMotorSpeed(base_speed - power_difference);
+    set_motors(base_speed, base_speed - power_difference);
+  }
+}
+
+void determine_RoadSigns(pidController *PID, trackSelector *trackSelect){
+  float stripe_Width = trackSelect->getM_Speed() * 0.8;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

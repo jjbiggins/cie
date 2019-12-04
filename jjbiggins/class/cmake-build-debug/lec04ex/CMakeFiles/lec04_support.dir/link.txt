@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec04_support.a  CMakeFiles/lec04_support.dir/lec04_functions.cpp.o
+/usr/bin/ranlib liblec04_support.a

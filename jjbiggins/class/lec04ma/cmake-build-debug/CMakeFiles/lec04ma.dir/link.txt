@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/lec04ma.dir/lec04ma.cpp.o  -o lec04ma -rdynamic liblec04_support_lib.a 

@@ -1,0 +1,44 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name
+ * Date:
+ * Description: .
+ -------------------------------------------------------------------------------*/
+
+#include "robotHelperFunctions.h"
+#include "pid.h"
+#include "trackAndPiDFunctions.h"
+#include "trackSelect.h"
+#include <pololu/Pololu3pi.h>
+
+int main()
+{
+
+  // set up the 3pi
+  initializeRobot();
+  pidController PID;
+  trackSelector trackSelect;
+
+  unsigned int sensors[5] = {0}; // an array to hold sensor values
+  unsigned int position;
+
+  trackSelect.setM_TrackType(TRACK0);
+  set_motors(trackSelect.getM_Speed(), trackSelect.getM_Speed());
+
+  while (1) {
+    // This is the "main loop" - it will run forever.
+    // Get the position of the line.  Note that we *must* provide
+    // the "sensors" argument to read_line() here, even though we
+    // are not interested in the individual sensor readings.
+    position = read_line(sensors, IR_EMITTERS_ON);
+    if(sensors[0] == 1000 && sensors[1] == 1000 && sensors[2] == 1000 && sensors[3] == 1000 && sensors[4] == 1000){
+      detect_RoadSigns(&trackSelect);
+    }
+
+    int proportional = ((int)position) - 2000;
+    PID.setM_Proportional(proportional);
+    set_PID_InputValues(&PID);
+
+    lcd_goto_xy(0, 1);
+  }
+}
+

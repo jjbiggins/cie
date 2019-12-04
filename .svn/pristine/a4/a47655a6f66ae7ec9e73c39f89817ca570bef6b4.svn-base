@@ -1,0 +1,97 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+#include <iostream>
+#include "RentalCustomer.cpp"
+#include "helperfunctions.cpp"
+
+using namespace std;
+
+int main(void) {
+  int done = 0;
+  int choice;
+  int userNumber;
+  int movieNumber;
+  MoviePtrType startPtr = nullptr;
+  RentalCustomerPtrType customerPtr = nullptr;
+
+  const unsigned int INITIALNUMMOVIES = 11;
+  const unsigned int INITIALNUMUSERS = 8;
+  static const char *const InitialMovieNameList[INITIALNUMMOVIES] = {
+          "Passengers", "La La Land", "Assasins Creed", "Sing",
+          "Suicide Squad", "The Girl on the Train", "The Magnificient Seven",
+          "Underworld: Blood Wars", "Fifty Shades Darker", "Moana", "Arrival"
+  };
+
+  for (unsigned int i = 0; i < INITIALNUMMOVIES; i++) {
+    insertNodeMovieLinkedList(&startPtr, InitialMovieNameList[i]);
+  }
+  printMovieLinkedList(startPtr);
+
+
+  static const char *const InitialUserNamesList[INITIALNUMUSERS] = {
+          "E.Mou", "B.Evans", "B.Schweer", "R.Su", "K.Anderson", "K.Christensen", "M.Jacob", "H.Johnson"
+  };
+
+  for (unsigned int i = 0; i < INITIALNUMUSERS; i++){
+      insertRentalCustomerNodeLinkedList(&customerPtr, InitialUserNamesList[i]);
+  }
+  printRentalCustomerLinkedList(customerPtr);
+
+  cout << "\nWelcome to the movie rental system." << endl;
+  while (!done) {
+    cout << "\nPlease enter a choice:" << endl;
+    cout << "  1. Status" << endl;
+    cout << "  2. Return Movie" << endl;
+    cout << "  3. Rent Movie" << endl;
+    cout << "  4. Add User" << endl;
+    cout << "  5. Delete User" << endl;
+    cout << "Your choice = ";
+    cin >> choice;
+
+      switch (choice) {
+      /*case 1:
+        printRentalCustomerLinkedList(customerPtr);
+        cin >> movieNumber;
+        //insertMovieNodeInLinkedList(&startPtr, InitialMovieNameList, movieNumber);
+        cout << "New list:" << endl;
+        //printLinkedList(startPtr);
+        break;
+        case 2:
+          cout << "\nEnter value of node to delete: ";
+              cin >> nodeValue;
+              deleteNodeInLinkedList(&startPtr, nodeValue);
+              cout << "New list:" << endl ;
+              printLinkedList(startPtr);
+              break;*/
+        case 3:
+            cout << "\nEnter RentalCustomer number from the following list: " << endl;
+              printRentalCustomerLinkedList(customerPtr);
+              cin >> userNumber;
+              MoviePtrType customerMoviePtr= traverseCustomerList(InitialUserNamesList[userNumber], &customerPtr);
+              cout << "\nEnter Movie number from the following list: " << endl;
+              printMovieLinkedList(startPtr);
+              cin >> movieNumber;
+              const string movie = traverseMoviesToBeRentedList(InitialMovieNameList[movieNumber], &startPtr);
+              insertNodeMovieLinkedList(&customerMoviePtr, movie);
+              preOrderPrint(customerPtr);
+              break;
+        /*case 4:
+          cout << "\nDeleting all nodes in list." << endl ;
+              freeAllMemoryInLinkedList(&startPtr);
+              cout << "New list:" << endl ;
+              printLinkedList(startPtr);
+              break;
+        case 5:
+          cout << "Thanks for using the linked list management system." << endl ;
+              done = 1;
+              break;*/
+        /*default:
+          cout << "Invalid choice." << endl ;
+              break;*/
+    }
+  }
+    return 0;
+}

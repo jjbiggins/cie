@@ -1,0 +1,121 @@
+/*-------------------------------------------------------------------------------
+ * Programmer: Joseph Biggins
+ * Description: This program contains in-class examples and the mini-assignment
+ *              associated with on linked lists.
+ *
+ *              For the mini-assignment, you must complete the function to
+ *              compute the sum of the reward amounts received.
+ *
+ *              Optional extra practice: As an additional practice problem,
+ *              complete the function to return a pointer to the first
+ *              AmazingRaceLocation with a reward amount less than a given key.
+ -------------------------------------------------------------------------------*/
+#include <iomanip>
+#include <iostream>
+using namespace std;
+
+#include "LLNode.h"
+
+int main(void)
+{
+  /* set up locations */
+  /* Note: this is NOT the standard way linked lists are created,
+     but is useful as an example. More commonly, dynamic memory
+     allocation is used to create the nodes of the list */
+
+  /* CIE classroom */
+  AmazingRaceLocation cieClassroom;
+  cieClassroom.setLocationName("CIE Classroom");
+  cieClassroom.setRewardAmount(50.00);
+  cieClassroom.setNextLocation(nullptr);
+
+  /* CIE laboratory */
+  AmazingRaceLocation cieLab;
+  cieLab.setLocationName("CIE Laboratory");
+  cieLab.setRewardAmount( 50.00 );
+  cieLab.setNextLocation( nullptr );
+
+  /* ECE office */
+  AmazingRaceLocation eceOffice;
+  eceOffice.setLocationName("ECE Office");
+  eceOffice.setRewardAmount(25.00);
+  eceOffice.setNextLocation(nullptr);
+
+  /* CEE office */
+  AmazingRaceLocation ceeOffice;
+  ceeOffice.setLocationName("CEE Office");
+  ceeOffice.setRewardAmount(25.00);
+  ceeOffice.setNextLocation(nullptr);
+
+  /* CBE office */
+  AmazingRaceLocation cbeOffice;
+  cbeOffice.setLocationName("CBE Office");
+  cbeOffice.setRewardAmount(25.00);
+  cbeOffice.setNextLocation(nullptr);
+
+  /* MIE office */
+  AmazingRaceLocation mieOffice;
+  mieOffice.setLocationName("MIE Office");
+  mieOffice.setRewardAmount(25.00);
+  mieOffice.setNextLocation(nullptr);
+
+  /* BME office */
+  AmazingRaceLocation bmeOffice;
+  bmeOffice.setLocationName("BME Office");
+  bmeOffice.setRewardAmount(25.00);
+  bmeOffice.setNextLocation(nullptr);
+
+  /* Student Development Center */
+  AmazingRaceLocation sdc;
+  sdc.setLocationName("Student Development Center");
+  sdc.setRewardAmount( 50.00 );
+  sdc.setNextLocation(nullptr);
+
+  /* Mona Garvin office */
+  AmazingRaceLocation monaGarvinOffice;
+  monaGarvinOffice.setLocationName("M. Garvin Office");
+  monaGarvinOffice.setRewardAmount( 5.00 );
+  monaGarvinOffice.setNextLocation( nullptr );
+
+  /* Justin Garvin office */
+  AmazingRaceLocation justinGarvinOffice;
+  justinGarvinOffice.setLocationName("J. Garvin Office");
+  justinGarvinOffice.setRewardAmount( 0.25 );
+  justinGarvinOffice.setNextLocation(nullptr);
+
+  /* location pointer for future use */
+  AmazingRaceLocationPtr foundLocPtr = nullptr;
+
+  /* "link" locations together */
+  cieClassroom.setNextLocation( &monaGarvinOffice );
+  monaGarvinOffice.setNextLocation( &cieLab );
+  cieLab.setNextLocation( &eceOffice );
+  eceOffice.setNextLocation( &bmeOffice );
+  bmeOffice.setNextLocation( &justinGarvinOffice );
+  justinGarvinOffice.setNextLocation( &mieOffice );
+  mieOffice.setNextLocation( &ceeOffice );
+  ceeOffice.setNextLocation( &cbeOffice );
+  cbeOffice.setNextLocation( &sdc );
+
+  /* print location names and rewards */
+  cout << "Amazing race location names and rewards:" << endl;
+  printAllLocationNamesAndRewards(&cieClassroom);
+
+  /* compute and display total value */
+  //TODO REQUIRED:  In LLNode.cpp modify the computeTotalReward function to return the proper value.
+  cout << "\n\t\t\tTotal reward value = " << fixed << "$" << setprecision(2) << setw(10) << right
+       << computeTotalReward(&cieClassroom) << endl;
+
+  // TODO OPTIONAL: In LLNode.cpp modify getFirstAmazingRaceLocationPtrWithRewardLessThanKey to return the
+  //                first node with reward value less than the value provided
+  /* display first location with a reward value less than $10 */
+  foundLocPtr = getFirstAmazingRaceLocationPtrWithRewardLessThanKey(&cieClassroom, 10);
+  if (foundLocPtr != nullptr)
+    {
+      cout << "\nThe first location with reward less than $10 is "
+           << foundLocPtr->getLocationName() << " with a reward of "
+           << fixed << "$" << setprecision(2) << foundLocPtr->getRewardAmount() << endl;
+    }
+  return 0;
+}
+

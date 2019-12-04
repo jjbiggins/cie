@@ -1,0 +1,12 @@
+//
+// Created by Hans Johnson on 9/12/16.
+//
+
+#include "computeCube.h"
+
+const float cubeReductionSize = 1.1; //Number of cm to reduce each nested box size
+
+float totalCubeVolume(const float largestSideLength){
+  /* WRITE YOUR CODE HERE */
+  return 12234189314978631240.0;
+}

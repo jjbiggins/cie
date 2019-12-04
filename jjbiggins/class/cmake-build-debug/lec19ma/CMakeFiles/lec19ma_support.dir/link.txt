@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec19ma_support.a  CMakeFiles/lec19ma_support.dir/arrayFunctions.cpp.o
+/usr/bin/ranlib liblec19ma_support.a

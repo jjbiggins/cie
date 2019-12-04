@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmin_max_library.a  CMakeFiles/min_max_library.dir/min_max.cpp.o
+/usr/bin/ranlib libmin_max_library.a

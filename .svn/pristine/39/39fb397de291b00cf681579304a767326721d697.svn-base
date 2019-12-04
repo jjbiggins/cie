@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+
+#ifndef SRC_HELPERFUNCTIONS_H
+#define SRC_HELPERFUNCTIONS_H
+
+#include "RentalCustomer.h"
+#include "Movie.h"
+
+const string traverseMoviesToBeRentedList(const string movieName, MoviePtrType *moviesToBeRented);
+//MoviePtrType createUserMovieListNode(const char* movieName);
+MoviePtrType traverseCustomerList(const string userName, RentalCustomerPtrType *customerList);
+void preOrderPrint(RentalCustomerPtrType customerList);
+
+#endif // SRC_HELPERFUNCTIONS_H

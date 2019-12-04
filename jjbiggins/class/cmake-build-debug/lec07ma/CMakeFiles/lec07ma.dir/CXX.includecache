@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec07ma/lec07ma.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+min_max.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec07ma/min_max.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec07ma/min_max.h
+

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/Derived1.cpp
+Derived1.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/Derived1.h
+iostream
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/Derived1.h
+TheBaseClass.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.h
+string
+-
+iostream
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.cpp
+TheBaseClass.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.h
+iostream
+-
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.h
+
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/lec36ma.cpp
+iostream
+-
+TheBaseClass.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.h
+Derived1.h
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/Derived1.h
+

@@ -1,0 +1,37 @@
+/*------------------------------------------------------------------------------
+ * Programmer: YOUR NAME
+ * Name: hw1.cpp
+ * Description:
+  -------------------------------------------------------------------------------*/
+#include <iostream>
+#include <stdio.h>
+#include <string>
+#include "Movie.h"
+#include "RentalCustomer.h"
+#include "helperfunctions.h"
+
+using namespace std;
+
+
+int main(void )
+{
+
+  /* Example code below; modify */
+
+  /* Create Movie object and initialize */
+  Movie Movie;
+  Movie.SetName("Passengers");
+  Movie.SetNumber(0);
+
+  /* Create RentalCustomer object and initialize */
+  RentalCustomer User;
+  User.SetName("Elaine Mou");
+  User.SetNumberRented(0);
+
+  /* Example code below; change to implement the system */
+
+  User.SetRentedMovie(Movie);
+  User.SetNumberRented(1);
+  printRentalCustomer(User);
+
+}

@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+#include <iostream>
+#include "Movie.h"
+
+using namespace std;
+
+void insertNodeMovieLinkedList(MoviePtrType *startPtr, const char* InitialMovieNameList, int movieNumber){
+
+    MoviePtrType beforeMovieNodePtr;
+    MoviePtrType afterMovieNodePtr;
+
+    /* dynamically allocate memory for new node */
+    MoviePtrType newMoviePtr = new Movie;
+    /* will point to newly created node */
+    newMoviePtr->setName(InitialMovieNameList);
+    newMoviePtr->setNumber(movieNumber);
+    newMoviePtr->setNextPtr(nullptr);
+
+    beforeMovieNodePtr = nullptr;
+    afterMovieNodePtr = *startPtr;
+    while (afterMovieNodePtr != nullptr && afterMovieNodePtr->getNumber() < movieNumber) {
+        beforeMovieNodePtr = afterMovieNodePtr;
+        afterMovieNodePtr = afterMovieNodePtr->getNextPtr();
+    }
+
+    if (beforeMovieNodePtr == nullptr) {
+        newMoviePtr->setNextPtr(*startPtr); /* set link to prior start */
+        *startPtr = newMoviePtr;       /* set new value for the startPtr */
+    } else /* case 2: insert in middle or at end of list */ {
+        beforeMovieNodePtr->setNextPtr(newMoviePtr);
+        newMoviePtr->setNextPtr(afterMovieNodePtr);
+    }
+}
+
+void printMovieLinkedList(MoviePtrType startPtr)
+{
+    MoviePtrType currentPtr;
+    for (currentPtr = startPtr; currentPtr != nullptr; currentPtr = currentPtr->getNextPtr())
+    {
+        int movieNumber = currentPtr->getNumber();
+        cout << movieNumber << ". " << currentPtr->getName() << endl;
+    }
+    cout << endl;
+}

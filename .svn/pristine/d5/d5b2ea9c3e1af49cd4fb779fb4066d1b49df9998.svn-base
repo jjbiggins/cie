@@ -1,0 +1,14 @@
+//
+// Created by jjbiggins on 4/19/17.
+//
+
+#ifndef HOMEWORK5_STORE_H
+#define HOMEWORK5_STORE_H
+
+
+class Store {
+
+};
+
+
+#endif //HOMEWORK5_STORE_H

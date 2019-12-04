@@ -1,0 +1,41 @@
+//
+// Created by johnsonhj on 9/22/16.
+//
+#include "pin.h"
+#include "robot_utils.h"
+
+#include <pololu/3pi.h>   /* allow use of 3pi robot functions */
+#include <math.h>
+
+void readUserInput(const int counter, int *inputNumber) {
+
+    char digits[PIN_LENGTH] = {0}; //The array storing the 4 digits & sets all digits to 0
+
+    /*Print all the digits*/
+    int pos = 0; //Current digit position
+    refreshDisplay(counter, pos, digits);
+    /*wait for user to press button*/
+    unsigned char pressedButton = wait_for_button(ANY_BUTTON);
+    /*while the button pressed is not enter (A)*/
+    while (pressedButton != BUTTON_A) {
+        switch (pressedButton) {
+            case BUTTON_C: //Button C pressed, move the position to the next digit
+                if (pos == PIN_LENGTH - 1) {
+                    pos = 0;
+                } else {
+                    pos = (pos + 1);
+                }
+                break;
+            case BUTTON_B: //Button B pressed, increment the current digit by 1
+                digits[pos] = (digits[pos] + 1) % 10; /* % 10 wraps around to zero after 9 */
+                break;
+        }
+        /* TODO: Call the refreshDisplay function after every button pressed*/
+ 
+        
+        pressedButton = wait_for_button(ANY_BUTTON); //Wait for user to press another button
+    }
+    /*TODO: Convert from digits to decimal, compute the inputNumber from digits */
+    /* HINT: digit[0] is multiplied by 1000, digit[1] by 100, digit[2] by 10, and digit[3] by 1 */
+    /* To make your code general, you can use the ipow function provided in robot_utils */
+}

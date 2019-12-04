@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblec12min_max_library.a  CMakeFiles/lec12min_max_library.dir/min_max.cpp.o
+/usr/bin/ranlib liblec12min_max_library.a

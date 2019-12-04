@@ -1,0 +1,3 @@
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec20ma/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec20ma/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec20ma/cmake-build-debug/CMakeFiles/lec20ma.dir

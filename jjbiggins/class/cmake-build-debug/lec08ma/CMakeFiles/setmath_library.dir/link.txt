@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsetmath_library.a  CMakeFiles/setmath_library.dir/setmath.cpp.o
+/usr/bin/ranlib libsetmath_library.a

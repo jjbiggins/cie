@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lec12ma"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lec03ma\;CMake Files\lec04ma\;CMake Files\lec04ex\;CMake Files\lec05ma\;CMake Files\lec06ma\;CMake Files\lec07ma\;CMake Files\lec07ex\;CMake Files\lec08ma\;CMake Files\lec11ma\;CMake Files\lec12ma\;CMake Files\lec13ma\;CMake Files\lec17ma\;CMake Files\lec18ma\;CMake Files\lec20ma\;CMake Files\lec19ma\;CMake Files\lec22ma\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec12ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/lec12ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 lec12ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec12ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/lec12ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 lec12ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec12min_max_library">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/liblec12min_max_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 lec12min_max_library"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec12min_max_library/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/liblec12min_max_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 lec12min_max_library/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec12ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec12ma/lec12ma.cpp">
+			<Option target="lec12ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec12ma/min_max.cpp">
+			<Option target="lec12min_max_library"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec12ma/min_max.h">
+			<Option target="lec12min_max_library"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec03ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec03ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec03ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec03ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec04ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec04ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec04ex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec04ex\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec05ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec05ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec06ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec06ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec07ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec07ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec07ex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec07ex\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec08ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec08ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec11ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec11ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec12ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec12ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec12ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec12ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec13ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec13ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec17ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec17ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec17ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec17ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec18ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec18ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec18ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec18ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec20ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec20ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec20ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec20ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec19ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec19ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec19ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec19ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec22ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec22ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec22ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec22ma\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

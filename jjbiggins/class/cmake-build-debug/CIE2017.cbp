@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CIE2017"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lec29ma\;CMake Files\lec30ma\;CMake Files\lec31ma\;CMake Files\lec32ma\;CMake Files\lec33ma\;CMake Files\lec34ma\;CMake Files\lec35ma\;CMake Files\lec36ma\;CMake Files\lec37ma\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec29ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/lec29ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 lec29ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec29ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/lec29ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 lec29ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec29ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec30ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/lec30ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 lec30ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec30ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/lec30ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 lec30ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec30ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec31ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/lec31ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 lec31ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec31ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/lec31ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 lec31ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec31ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec32ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/lec32ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 lec32ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec32ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/lec32ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 lec32ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec32ma_support">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/liblec32ma_support.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 lec32ma_support"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec32ma_support/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/liblec32ma_support.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 lec32ma_support/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec32ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec33ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/lec33ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 lec33ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec33ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/lec33ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 lec33ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec33ma_support">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/liblec33ma_support.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 lec33ma_support"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec33ma_support/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/liblec33ma_support.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 lec33ma_support/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec33ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec34ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/lec34ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 lec34ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec34ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/lec34ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 lec34ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec34ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec35ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/lec35ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 lec35ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec35ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/lec35ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 lec35ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec35ma_support">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/liblec35ma_support.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 lec35ma_support"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec35ma_support/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/liblec35ma_support.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 lec35ma_support/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec35ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec36ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/lec36ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 lec36ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec36ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/lec36ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 lec36ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec36ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec37ma">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/lec37ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 lec37ma"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lec37ma/fast">
+				<Option output="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/lec37ma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed"/>
+					<Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/x86_64-suse-linux"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 lec37ma/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/cmake-build-debug/lec37ma/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/Time.cpp">
+			<Option target="lec29ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/Time.h">
+			<Option target="lec29ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/lec29ma.cpp">
+			<Option target="lec29ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec30ma/Time.cpp">
+			<Option target="lec30ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec30ma/Time.h">
+			<Option target="lec30ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec30ma/classExamples.cpp">
+			<Option target="lec30ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec30ma/classExamples.h">
+			<Option target="lec30ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec30ma/lec30ma.cpp">
+			<Option target="lec30ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec31ma/classExamples.cpp">
+			<Option target="lec31ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec31ma/classExamples.h">
+			<Option target="lec31ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec31ma/lec31ma.cpp">
+			<Option target="lec31ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.cpp">
+			<Option target="lec32ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Date.h">
+			<Option target="lec32ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Employee.cpp">
+			<Option target="lec32ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Employee.h">
+			<Option target="lec32ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Homework.cpp">
+			<Option target="lec32ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/Homework.h">
+			<Option target="lec32ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/lec32ma.cpp">
+			<Option target="lec32ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/Node.cpp">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/Node.h">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/Stack1.cpp">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/Stack1.h">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/Stack2.cpp">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/Stack2.h">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/StackFunctions.cpp">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/StackFunctions.h">
+			<Option target="lec33ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/lec33ma.cpp">
+			<Option target="lec33ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/bookWishListItem.cpp">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/bookWishListItem.h">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/lec34ma.cpp">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/videoGameWishListItem.cpp">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/videoGameWishListItem.h">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/wishListItem.cpp">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/wishListItem.h">
+			<Option target="lec34ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/BasePlusCommissionEmployee.cpp">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/BasePlusCommissionEmployee.h">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/CommissionEmployee.cpp">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/CommissionEmployee.h">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/InheritanceExamples.cpp">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/InheritanceExamples.h">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/PhonePlan.cpp">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/PhonePlan.h">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/PhonePlanWithData.cpp">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/PhonePlanWithData.h">
+			<Option target="lec35ma_support"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/lec35ma.cpp">
+			<Option target="lec35ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/Derived1.cpp">
+			<Option target="lec36ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/Derived1.h">
+			<Option target="lec36ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.cpp">
+			<Option target="lec36ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/TheBaseClass.h">
+			<Option target="lec36ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/lec36ma.cpp">
+			<Option target="lec36ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec37ma/lec37ma.cpp">
+			<Option target="lec37ma"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec29ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec29ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec30ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec30ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec31ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec31ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec32ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec32ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec33ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec33ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec34ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec34ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec35ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec35ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec36ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec36ma\"/>
+		</Unit>
+		<Unit filename="/nfs/s-l011/local/vol01/j/jjbiggins/cie/jjbiggins/class/lec37ma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lec37ma\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

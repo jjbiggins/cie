@@ -1,0 +1,56 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Shawn Rennegarbe & Joe Biggins
+ * Date:March 8, 2017
+ * Description: hw3.cpp is the main file for Homework 3 in CIE.  The object of
+ *      this homework is to move the 3pi robot around tracks as fast as possible
+ *      using its sensors. The robot must recognize the track, beep when passing a
+ *      road sign, and use several mathmatical functions to get it to drive.
+ -------------------------------------------------------------------------------*/
+
+#include "robotHelperFunctions.h"
+#include "pid.h"
+#include "trackAndPiDFunctions.h"
+#include "trackSelect.h"
+#include <pololu/Pololu3pi.h>
+
+int main()
+{
+  // set up the 3pi
+  initializeRobot();
+  pidController PID;
+  trackSelector trackSelect;
+
+  unsigned int sensors[5] = {0}; // an array to hold sensor values
+  unsigned int position;
+
+  trackSelect.setM_TrackType(TRACK0);
+  set_motors(trackSelect.getM_Speed(), trackSelect.getM_Speed());
+
+  while (1) {
+    // This is the "main loop" - it will run forever.
+    // Get the position of the line.  Note that we *must* provide
+    // the "sensors" argument to read_line() here, even though we
+    // are not interested in the individual sensor readings.
+    position = read_line(sensors, IR_EMITTERS_ON);
+    if(sensors[0] == 1000 && sensors[1] == 1000 && sensors[2] == 1000 && sensors[3] == 1000 && sensors[4] == 1000) {
+      if(trackSelect.getM_WhiteCounter() != 0) {
+        detect_RoadSigns(&trackSelect);
+      }
+    }
+    else {
+      int white_counter = trackSelect.getM_WhiteCounter();
+      trackSelect.setM_WhiteCounter(white_counter + 1);
+      if (trackSelect.getM_WhiteCounter() > 10) {
+        trackSelect.setM_numBlackStripes(0);
+      }
+    }
+
+    set_Speed(&trackSelect);
+    int proportional = ((int)position) - 2000; //position returns values surrounding 2000, so we subtract 2000 to move the values around 0
+    PID.setM_Proportional(proportional);
+    set_PID_InputValues(&PID, &trackSelect);
+
+    lcd_goto_xy(0, 1);
+  }
+}
+

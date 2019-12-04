@@ -1,0 +1,16 @@
+
+extern void printTypeAndValue(const float value);
+extern void printTypeAndValue(const double value);
+extern void printTypeAndValue(const int value);
+
+/*TODO: Specify the function prototypes for required functions*/
+//Float Types
+
+extern float average(const float x1, const float x2, const float x3, const float x4);
+
+/*TODO: Specify the function prototypes for required functions*/
+//Double Types
+
+
+/*TODO: Specify the function prototypes for required functions*/
+//Integer Types

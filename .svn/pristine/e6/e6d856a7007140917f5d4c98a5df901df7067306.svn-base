@@ -1,0 +1,32 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+#include <iostream>
+
+
+using namespace std;
+
+
+
+
+
+int main(void)
+{
+  /*
+  const unsigned int INITIALNUMMOVIES=11;
+  const unsigned int INITIALNUMUSERS=8;
+  static const char* const InitialMovieNameList[INITIALNUMMOVIES] = {
+    "Passengers", "La La Land", "Assasins Creed", "Sing",
+    "Suicide Squad", "The Girl on the Train", "The Magnificient Seven",
+    "Underworld: Blood Wars", "Fifty Shades Darker", "Moana", "Arrival"
+  };
+
+  static const char* const InitialUserNamesList[INITIALNUMUSERS] = {
+    "E.Mou", "B.Evans", "B.Schweer", "R.Su", "K.Anderson", "K.Christensen", "M.Jacob", "H.Johnson"
+  };
+*/
+
+  return 0;
+}

@@ -1,0 +1,52 @@
+/*------------------------------------------------------------------------------
+ * Programmer: Your name here
+ * Name:
+ * Description:
+ -------------------------------------------------------------------------------*/
+
+#include "RentalCustomer.h"
+#include "Movie.h"
+#include <iostream>
+
+using namespace std;
+
+void insertRentalCustomerNodeLinkedList(RentalCustomerPtrType *userStartPtr, const char* InitialUserNamesList, int userNumber){
+
+    RentalCustomerPtrType beforeUserNodePtr;
+    RentalCustomerPtrType afterUserNodePtr;
+
+    /* dynamically allocate memory for new node */
+    RentalCustomerPtrType newUserPtr = new RentalCustomer;
+    MoviePtrType newMoviePtr = new Movie;
+    /* will point to newly created node */
+    newUserPtr->setName(InitialUserNamesList);
+    newUserPtr->setNextPtr(nullptr);
+    newUserPtr->setUserNumber(userNumber);
+    newUserPtr->setMoviePtr(nullptr);
+
+    beforeUserNodePtr = nullptr;
+    afterUserNodePtr = *userStartPtr;
+    while (afterUserNodePtr != nullptr && afterUserNodePtr->getUserNumber() < userNumber) {
+        beforeUserNodePtr = afterUserNodePtr;
+        afterUserNodePtr = afterUserNodePtr->getNextPtr();
+    }
+
+    if (beforeUserNodePtr == nullptr) {
+        newUserPtr->setNextPtr(*userStartPtr); /* set link to prior start */
+        *userStartPtr = newUserPtr;       /* set new value for the startPtr */
+    } else /* case 2: insert in middle or at end of list */ {
+        beforeUserNodePtr->setNextPtr(newUserPtr);
+        newUserPtr->setNextPtr(afterUserNodePtr);
+    }
+}
+
+void printRentalCustomerLinkedList(RentalCustomerPtrType startPtr)
+{
+    RentalCustomerPtrType currentPtr;
+    for (currentPtr = startPtr; currentPtr != nullptr; currentPtr = currentPtr->getNextPtr())
+    {
+        int userNumber = currentPtr->getUserNumber();
+        cout << userNumber << ". " << currentPtr->getName() << endl;
+    }
+    cout << endl;
+}
